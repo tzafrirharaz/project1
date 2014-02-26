@@ -70,7 +70,7 @@ public class TipCalculatorActivity extends Activity implements OnClickListener {
 			return Integer.toString((int) Math.floor(num));
 		}
 		else {
-			return Integer.toString((int) Math.floor(num));
+			return Integer.toString((int) Math.ceil(num));
 		}
 	}
 
